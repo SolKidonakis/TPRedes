@@ -1,8 +1,8 @@
-# ✅ VERIFICACIÓN DETALLADA DE CONSIGNAS - API UNIFICADA
+# ✅ API Cliente-Servidor
 
 ## 📋 **ETAPA 1: Elección y consulta de los datos**
 
-### ✅ **Consigna Cumplida: Elección del archivo JSON**
+### ✅ **Elección del archivo JSON**
 - **Archivo elegido**: `nobel_prizes.json` de la API oficial de Premios Nobel
 - **URL fuente**: `https://api.nobelprize.org/v1/prize.json`
 - **Descripción**: Archivo JSON que contiene todos los premios Nobel otorgados
@@ -78,19 +78,11 @@
    - Actualizar premios existentes
    - Eliminar premios
 
-### ✅ **Verificación de funcionamiento**
-**Características del cliente**:
-- Interfaz de menú interactivo
-- Manejo de errores HTTP
-- Respuestas JSON formateadas
-- Autenticación automática para operaciones protegidas
-- Confirmación para operaciones destructivas
-
 ---
 
 ## 🔐 **Configuraciones de seguridad**
 
-### ✅ **Consigna Cumplida: Autenticación Basic para POST y DELETE**
+### ✅ ** Autenticación Basic para POST y DELETE**
 **Archivo**: `API/security_config.py`
 
 **Implementación**:
